@@ -11,8 +11,8 @@ module.exports = {
   networks: {
     
     "optimism": {
-       url: process.env.URL,
-       accounts: [ process.env.MNEMONIC ]
+       url: process.env.REACT_APP_ALCHEMY_API_URL,
+       accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
     }
   }
 };
